@@ -9,3 +9,9 @@ chromium-browser、ostinato
 
 
 確認ryu的安裝完成後，Home directory會出現ryu directory，請將simple_switch_13.py、simple_switch_rest_13.py放置於絕對路徑/home/mininet/ryu/ryu/app之下，並以terminal在該位置輸入ryu-manager simple_switch_13.py產生新的.pyc檔
+
+
+將sdn_app.cpp放置任意合理位置，並以terminal在該位置輸入g++ -o app sdn_app.cpp編譯產生app執行檔
+
+
+
